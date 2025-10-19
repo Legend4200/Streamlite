@@ -881,4 +881,5 @@ def tasks_page():
 
 if __name__ == "__main__":
     print("Templates/static created (if not present). Run app and open http://127.0.0.1:22700")
+
     app.run(host='0.0.0.0', port=5000, debug=True)
